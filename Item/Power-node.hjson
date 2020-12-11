@@ -1,0 +1,43 @@
+# 能量节点
+{
+	type: PowerNode
+	# name: "Large Reinforced Power node"
+	# description: "A more durable large power node, but with fewer connection points."
+	name: "节点"
+	description: "大功率节点，更多的连接点。"
+	size: 2
+	health: 580
+	maxNodes: 50			# 最大连接数
+	laserRange: 25		# 覆盖半径
+	configurable: true
+	requirements: [
+	  lead/20
+	  titanium/10
+	  silicon/6
+	],
+	category: power
+	research: power-node-large
+}
+
+# 电塔
+{
+	type: PowerNode
+	# name: "Phase Tower"
+	# description: "An insanely long range power node with one connection point."
+	name: "电塔"
+	description: "一个疯狂的远程电源节点。"
+	size: 3
+	health: 340
+	maxNodes: 2			# 最大连接数
+	laserRange: 75		# 覆盖半径
+	configurable: true		# 是否可以点击并选择该块进行配置
+	requirements: [
+	  copper/120
+	  silicon/50
+	  titanium/60
+	],
+	category: power
+	research: surge-tower
+}
+
+

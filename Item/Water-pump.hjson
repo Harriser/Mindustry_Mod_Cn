@@ -1,0 +1,26 @@
+﻿{
+	type: Fracker,
+	name: "迷你抽水机",
+	description: "在不使用电力的情况下提取地下水",
+	liquidCapacity: 15,	 # 液体容量
+	result: water,		 # 结果（产物）
+
+	pumpAmount: 0.6,	# 	泵的数量
+	itemUseTime: 60		工艺时间,
+	# 输出物/生产量 = 泵的数量 x 项目成产时间
+	# 0.6 * 60 = 36/s 水
+	size: 1,
+	floating: false,	# 悬浮
+	attribute: water,		# 归类
+	hasPower: false,	# 电力需求
+	hasLiquids: true,	# 液体需求
+	craftTime: 60,
+	updateEffect: none,	# 可选增强:(采用默认值)
+	consumes: {},	# 生产"结果"需要的消耗
+	requirements: [		# 建造花费
+	  copper/8
+	  lead/4
+	],
+	category: production,
+	research: pneumatic-drill
+}

@@ -1,0 +1,9 @@
+﻿#### PowerGenerator（发电机类型）
+ThermalGenerator			热力发电机
+ItemLiquidGenerator		液体项发电机
+SingleTypeGenerator		单一类型发电机
+BurnerGenerator			燃烧器发电机
+DecayGenerator			衰变发电机
+SolarGenerator			太阳能发电机
+NuclearReactor			核反应堆
+ImpactReactor				冲击力反应堆
